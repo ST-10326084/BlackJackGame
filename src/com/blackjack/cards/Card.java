@@ -8,6 +8,19 @@ package com.blackjack.cards;
  *
  * @author Fungho Baloyi - ST10405022
  */
-public class Card {
+public abstract class Card {
+    protected Rank rank;
+    protected Suit suit;
     
+    public Card(Rank rank, Suit suit)
+    {
+        this.rank = rank;
+        this.suit = suit;
+    }
+    
+    @Override
+    public String toString()
+    {
+        return rank + " of " + suit;
+    }
 }
