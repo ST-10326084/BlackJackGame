@@ -18,6 +18,18 @@ public abstract class Card {
         this.suit = suit;
     }
     
+    public abstract int getValue();
+    
+    public Rank getRank() 
+    {
+        return rank;
+    }
+    
+    public Suit getSuit()
+    {
+        return suit;
+    }
+    
     @Override
     public String toString()
     {
