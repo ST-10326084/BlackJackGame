@@ -1,13 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.blackjack.players;
 
-/**
- *
- * @author Fungho Baloyi - ST10405022
- */
 public class Player {
+    String name;
+    Cards [] handArray = new Cards[];
+    int score;
+
+    public void addCards(){
+        // implement logic to add cards into the handArray
+    }
+
+    public void calcScore(){
+        // calculate the the score based on who is closest to 21
+    }
+
+    public void displayHand(){
+      // output the current hand
+    }
     
 }
